@@ -1,89 +1,110 @@
+.menua {
+    background-color: rgb(20, 42, 116);
+    font-size: 2rem;
+    display: flex;
+    padding: 0%;
+    gap: 20px;
+    height: 100px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
 
-.menua{
-background-color: rgb(20, 42, 116);
-font-size: 2rem;
-display: flex;
-padding: 0%;
-gap: 20px;
-height: 100px;
-width: auto;
-text-align: center;
-align-items: center;
+.menua h1 {
+    margin-bottom: 25px;
+    height: 50px;
+    font-size: 50px;
+    color: white;
 }
-.menua h1{
-margin-bottom: 25px;
-height: 50px;
-font-size: 50px;
-color: white;
-}
-.menua a{
+
+.menua a {
     text-align: center;
     text-decoration: none;
-padding: 50px;
-cursor: pointer;
-color: white;
+    padding: 50px;
+    cursor: pointer;
+    color: white;
 
 
 }
-.menua a:hover{
+
+.menua a:hover {
     background-color: black;
     transform: transition 0.3 ease;
-    
+        border-radius: 10px;
+    height: 4px;
+
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-.material-symbols-outlined:hover{
-    cursor: pointer;
-    transform: transition 0.3 ease;
-    background-color:grey;
-    border-radius: 10px;
-}
 
-.filmak{
+.main {
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: rgb(21, 7, 59);
     
 
 }
-.filmak img{
+
+
+.filmak img:not(.filmak div) {
     border-radius: 20px;
     display: flex;
     height: 400px;
     width: 300px;
+
+}
+.filmak p{
+    color: white;
+
+}.filmak details{
+    color: white;
     
 }
-.footer{
-background-color: rgb(20, 42, 116);
-font-size: 2rem;
-display: flex;
-padding: 0%;
-gap: 20px;
-height: 100px;
-width: auto;
-text-align: center;
-align-items: center;
-}
-.footer h1{
-margin-bottom: 25px;
-height: 50px;
-font-size: 50px;
-color: white;
-}
-.footer a{
+
+.footer {
+    background-color: rgb(20, 42, 116);
+    font-size: 2rem;
+    display: flex;
+    padding: 0%;
+    gap: 20px;
+    height: 100px;
+    width: auto;
     text-align: center;
+    align-items: center;
+}
+.footer img{
+    height: 70px;
+    width: 70px;
+    border-radius: 12px;
+}
+
+.footer h1 {
+    margin-bottom: 25px;
+    height: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.footer a {
+    text-align: center;
+    align-items: center;
     text-decoration: none;
-padding: 50px;
-cursor: pointer;
-color: white;
+    padding: 50px;
+    cursor: pointer;
+    color: white;
 
 
 }
-.footer a:hover{
+
+.footer a:hover {
     background-color: black;
     transform: transition 0.3 ease;
-    
+    border-radius: 10px;
+    height: 4px;
+
+}
+
+button{
+    color: aliceblue;
+    z-index: 1000;
 }
